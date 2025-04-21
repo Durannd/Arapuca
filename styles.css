@@ -1,4 +1,4 @@
-*{ 
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,10 +6,12 @@
     user-select: none;
     color: white;
 }
-.nav-container{ 
+
+.nav-container {
     display: flex;
 }
-.nav-logo{ 
+
+.nav-logo {
     width: 35%;
     background-color: black;
     padding: 10px;
@@ -17,11 +19,12 @@
     align-items: center;
     display: flex;
     box-sizing: border-box;
-    
+
 }
-.nav-direcionamentos{ 
-    
-    width: 66%;
+
+.nav-direcionamentos {
+
+    width: 65%;
     background-color: black;
     padding: 10px;
     height: 7vh;
@@ -29,14 +32,16 @@
     display: flex;
     box-sizing: border-box;
 }
-.logo{ 
+
+.logo {
     height: 100%;
     width: 20%;
     object-fit: contain;
 
-    
+
 }
-.direcionamentos{ 
+
+.direcionamentos {
     color: white;
     display: flex;
     font-size: 3.3vb;
@@ -45,7 +50,8 @@
     justify-content: space-around;
     object-fit: contain;
 }
-.container-fundo{ 
+
+.container-fundo {
     background-image: linear-gradient(to top, orange, rgb(255, 145, 0), orange, rgb(255, 145, 0), orange, rgb(255, 145, 0));
     display: flex;
     width: 100vw;
@@ -54,22 +60,30 @@
     align-items: center;
 
 }
-.container-corpo{ 
+
+.container-corpo {
     width: 98vw;
     height: 90vh;
     box-sizing: border-box;
     background-color: rgb(12, 12, 12);
     padding: 2%;
     border-radius: 5px;
-    
 
-    & .titulo{ 
+
+    & .titulo {
         display: flex;
         font-size: 100px;
         align-items: center;
         justify-content: center;
-        text-shadow: 4px 3px 2px  rgb(255, 145, 0);
+        text-shadow: 4px 3px 2px rgb(255, 145, 0);
         box-sizing: border-box;
+    }
+    & .texto-corpo { 
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
     }
 
 }
